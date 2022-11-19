@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@4"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+</head>
+
+<body>
+    <div id="title">
+        <h1>How does Acai Berry Makes Your Life Better?</h1>
+    </div>
+    <div id="vis1"></div>
+    <div id="introduction">
+        <h>
+            The açaí palm , Euterpe oleracea, is a species of palm tree cultivated for its fruit (açaí berries, or simply açaí),
+            hearts of palm (a vegetable), leaves, and trunk wood. Global demand for the fruit has expanded rapidly in the 21st
+            century, and the tree is cultivated for that purpose primarily.
+        </h>
+    
+    </div>
+    
+    <div id="vis2"></div>
+    <div id="vis3"></div>
+    <script>
+        vegaEmbed("#vis1","chart1.json");
+        vegaEmbed("#vis2", "chart2.json");
+        vegaEmbed("#vis3", "chart3.json");
+    </script>
+</body>
+
+</html>

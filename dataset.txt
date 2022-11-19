@@ -1,0 +1,5 @@
+1. recipenlg.csv is a csv file containing matched recipes from
+https://github.com/Glorf/recipenlg
+2. nutrition.csv is a csv file containing information of nutrition from 
+https://www.fatsecret.com/calories-nutrition/
+3. trandingData.csv is a csv file containing tranding results of a specific product between countries from https://www.tridge.com/trades/data?code=081190&reporter=WL&partner=WL&flow=i&classificati on=HS2012

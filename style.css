@@ -1,0 +1,31 @@
+h1{
+    color:#1C7893;
+    font-size: 12;
+}
+*{
+    background-color:#EDFFFD;
+    width:100%
+}
+body{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#vis1{
+    width: 50%;
+}
+#vis2{
+    width:40%;
+}
+#vis3{
+    width:50%;
+}
+h{
+    color: #1C7893;
+    font-size:20px;
+}
+#introduction{
+    width:40%;
+    color:#1C7893
+}
